@@ -9,7 +9,7 @@ package tugas4_PBO11_KEL10.view;
  *
  * @author think pad
  */
-public class ExceptionHandling {
+public class tugas4_PBO11_KEL10 {
 
     /**
      * @param args the command line arguments
