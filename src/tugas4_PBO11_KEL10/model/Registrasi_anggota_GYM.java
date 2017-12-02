@@ -60,6 +60,21 @@ public class Registrasi_anggota_GYM {
     }
 
     public String getPaket() {
+        switch(paket){
+            case "Reguler":
+                biaya = 400000;
+                break;
+            case "Mahasiswa":
+                biaya = 350000;
+                break;
+            case "Private":
+                biaya = 700000;
+                break;
+            case "Premium":
+                biaya = 1000000;
+            default:
+                break;
+        }
         return paket;
     }
 
